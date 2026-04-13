@@ -19,7 +19,7 @@ public class AppGUI extends JFrame implements ActionListener {
         firstNameLabel = new JLabel("First Name:");
         lastNameLabel = new JLabel("Last Name:");
         majorLabel = new JLabel("Major:");
-        phoneLabel = new JLabel("Phone:");
+        phoneLabel = new JLabel("PhoneNo:");
         gpaLabel = new JLabel("GPA:");
         dobLabel = new JLabel("Date of Birth (yyyy-mm-dd):");
 
