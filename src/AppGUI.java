@@ -1,3 +1,5 @@
+//Edited by Annthony for Assignment 2
+
 import javax.swing.*;
 
 import java.awt.event.*;
@@ -11,17 +13,17 @@ public class AppGUI extends JFrame implements ActionListener {
     private Statement stmt;
 
     public AppGUI() {
-        JFrame frame = new JFrame("Student Database");
+        JFrame frame = new JFrame("Student Database"); 
         JPanel panel = new JPanel();
 
         // Initialize labels
-        studentIdLabel = new JLabel("Student ID:");
-        firstNameLabel = new JLabel("First Name:");
-        lastNameLabel = new JLabel("Last Name:");
-        majorLabel = new JLabel("Major:");
-        phoneLabel = new JLabel("PhoneNo:");
-        gpaLabel = new JLabel("GPA:");
-        dobLabel = new JLabel("Date of Birth (yyyy-mm-dd):");
+        studentIdLabel = new JLabel("Student ID:"); //Student ID is added as a unique identifier for each student,
+        firstNameLabel = new JLabel("First Name:"); //First Name is added to store the first name of the student,
+        lastNameLabel = new JLabel("Last Name:"); //Last Name is added to store the last name of the student,
+        majorLabel = new JLabel("Major:"); //Major is added to store the major of the student,
+        phoneLabel = new JLabel("PhoneNo:"); //PhoneNo is added to store the phone number of the student,
+        gpaLabel = new JLabel("GPA:"); //GPA is added to store the grade point average of the student,
+        dobLabel = new JLabel("Date of Birth (yyyy-mm-dd):"); //Date of Birth is added to store the date of birth of the student,
 
         // Initialize text fields
         studentIdField = new JTextField(10);
