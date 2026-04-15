@@ -40,7 +40,17 @@ CREATE TABLE `sdata` (
 
 LOCK TABLES `sdata` WRITE;
 /*!40000 ALTER TABLE `sdata` DISABLE KEYS */;
-INSERT INTO `sdata` VALUES ('001','Sankar','Nagarapu','EEE','9398068299','7.0','2002-06-24'),('002','Dharani','Nagarapu','CSE','9133501412','8.0','2004-06-05'),('003','Sindhu','Makarapu','CSE','9133505025','10.0','2004-06-25'),('004','Sneha','kurma','CSE','9548625756','10.0','2004-06-27'),('005','meghana','null','CSE','9548651652','10.0','2004-05-22');
+INSERT INTO `sdata` VALUES 
+('101','John','Smith','Computer Science','5551234567','3.8','2001-03-15'),
+('102','Emma','Johnson','Electrical Engineering','5552345678','3.9','2002-07-22'),
+('103','Michael','Williams','Mechanical Engineering','5553456789','3.7','2001-11-08'),
+('104','Sophia','Brown','Biology','5554567890','3.6','2003-01-30'),
+('105','James','Jones','Mathematics','5555678901','3.5','2002-09-14'),
+('106','Olivia','Garcia','Physics','5556789012','3.8','2001-05-19'),
+('107','William','Miller','Chemistry','5557890123','3.9','2003-08-27'),
+('108','Ava','Davis','Psychology','5558901234','3.7','2002-12-03'),
+('109','Benjamin','Rodriguez','Economics','5559012345','3.6','2001-04-11'),
+('110','Mia','Martinez','Business Administration','5550123456','3.8','2003-06-18');
 /*!40000 ALTER TABLE `sdata` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +63,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-12  9:28:19
+-- Dump completed on 2024-12-15 10:30:00
