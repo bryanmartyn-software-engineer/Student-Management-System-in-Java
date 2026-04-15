@@ -1,5 +1,5 @@
 # Java runtime
-FROM openjdk:11-jdk
+FROM eclipse-temurin:17-jdk
 
 # Set working directory in container
 WORKDIR /app
