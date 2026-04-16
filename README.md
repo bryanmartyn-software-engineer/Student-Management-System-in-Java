@@ -1,6 +1,3 @@
-Here is the complete README.md file as a single text block you can copy directly:
-
-```markdown
 # Student Management System in Java
 
 A comprehensive Student Management System built with Java and MySQL, featuring full CI/CD automation, containerized deployment, and team collaboration workflows.
@@ -481,4 +478,3 @@ mysql -u username -p database_name < student_data.sql
 **Course:** UECS2363 Software Construction and Configuration  
 **Assignment:** Assignment 2 - Continuous Integration and Automation Scripts  
 **University:** Universiti Tunku Abdul Rahman
-```
