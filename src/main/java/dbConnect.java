@@ -24,8 +24,8 @@ public class dbConnect {
         String pass = "";              // Database password
         
         // JDBC connection URL construction
-        // String url = "jdbc:mysql://host.docker.internal:3306/" + db;
-        String url = "jdbc:mysql://localhost:3306/" + db;
+        String url = "jdbc:mysql://host.docker.internal:3306/" + db;
+        // String url = "jdbc:mysql://localhost:3306/" + db;
         
         // Load MySQL JDBC driver class
         Class.forName("com.mysql.cj.jdbc.Driver");
